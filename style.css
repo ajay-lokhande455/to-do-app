@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+.input-container {
+    padding-top: 50px;
+}
+
+#my-input, button{
+    padding: 10px;
+    border-radius: 14px;
+    outline: none;
+    border: 0.5px solid rgb(228, 228, 228);
+    font-size: 17px;
+}
+
+#my-input{
+    width: 300px;
+}
+
+.add-btn {
+    background-color: rgb(32, 217, 32);
+    color: white;
+}
+
+ol {
+    display: none;
+    padding: 4vh 10vh;
+    font-size: 42px;
+    text-align: left;
+    margin: 12px;
+    
+}
+
+ol li{
+    background-color: gainsboro;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#remove-btn{
+    background-color: red;
+    color: white;
+}
+
+#completed-btn{
+    background-color: rgb(32, 217, 32);
+}
+
